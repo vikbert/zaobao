@@ -9,13 +9,13 @@
 
 这个项目会以前端技术体系为主要分享课题。  
 内容会以：文章、工具、新闻、视频等几大板块作为主要分类。  
-如果我的分享对你有所帮助，还请大家给个 ⭐️ 让更多的人知道[它](https://github.com/wubaiqing/zaobao)。  
+如果我的分享对你有所帮助，还请大家给个 ⭐️ 让更多的人知道[它](https://github.com/vikbert/zaobao)。  
 
-> 访问地址 : <https://wubaiqing.github.io/zaobao/other/latest.html>
+> 访问地址 : <https://vikbert.github.io/zaobao/other/latest.html>
 
-> RSS : <https://wubaiqing.github.io/zaobao/rss.xml>
+> RSS : <https://vikbert.github.io/zaobao/rss.xml>
 
-> GitHub : <https://github.com/wubaiqing/zaobao>
+> GitHub : <https://github.com/vikbert/zaobao>
 
 ### 阅读效果
 ![](https://ws1.sinaimg.cn/large/62bfa70bly1g0ocvsa4y7j226u1c2wv4.jpg)
@@ -29,7 +29,7 @@
 下载源码, 请执行下列命令：  
 ```bash
 # 克隆代码
-$ git clone https://github.com/wubaiqing/zaobao.git
+$ git clone https://github.com/vikbert/zaobao.git
 $ cd zaobao
 ```
 
