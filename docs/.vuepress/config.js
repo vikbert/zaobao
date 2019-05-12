@@ -33,8 +33,8 @@ module.exports = {
         platform: 'github',
         owner: 'vikbert',
         repo: 'zaobao',
-        clientId: '20ee116870a4be78bb37',
-        clientSecret: '13c39d03e4bdc6f13023cc6f318ca132c7522b9f'
+        clientId: '656cf3dd90e370b295d0',
+        clientSecret: 'f37ae698551c2c11400291773e422102712e3fac'
       }
     ]
   ],
@@ -44,7 +44,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     docsDir: 'docs',
     algolia: {
-      apiKey: 'd9708b4d74ba98295f2a87341fae3f0c',
+      apiKey: '6287226bfc8f45f5729943fba710faa0',
       indexName: 'zaobao'
     },
     nav: [{ text: 'Write To Me', link: '/other/talk' }],
