@@ -1,7 +1,7 @@
 const readFileList = require('../../scripts/build.js');
 
 module.exports = {
-  title: '每日时报',
+  title: 'Daily Notes',
   description:
     '每日时报，会以前端技术体系为主要分享课题。内容会以：文章、工具、新闻、视频几大板块作为主要分类。',
   head: [
@@ -11,7 +11,7 @@ module.exports = {
         rel: 'alternate',
         type: 'application/rss+xml',
         href: '/rss.xml',
-        title: '每日时报'
+        title: 'Daily Notes'
       }
     ]
   ],
@@ -21,7 +21,7 @@ module.exports = {
     [
       'vuepress-plugin-rss-support',
       {
-        site_url: 'https://vikbert.github.io/zaobao',
+        site_url: 'https://vikbert.github.io/zaobao/',
         filter: page => /^\/201.+/.test(page.path),
         copyright: '2019每日时报',
         count: 60
@@ -47,56 +47,56 @@ module.exports = {
       apiKey: 'd9708b4d74ba98295f2a87341fae3f0c',
       indexName: 'zaobao'
     },
-    nav: [{ text: '留言', link: '/other/talk' }],
+    nav: [{ text: 'Write To Me', link: '/other/talk' }],
     sidebar: [
-      ['/', '1. 介绍'],
+      ['/', 'Home'],
       {
-        title: '2019年05月',
+        title: '2019-05',
         collapsable: false,
         children: readFileList('2019', '05')
       },
       {
-        title: '2019年04月',
+        title: '2019-04',
         collapsable: false,
         children: readFileList('2019', '04')
       },
       {
-        title: '2019年03月',
+        title: '2019-03',
         collapsable: false,
         children: readFileList('2019', '03')
       },
       {
-        title: '2019年02月',
+        title: '2019-02',
         collapsable: true,
         children: readFileList('2019', '02')
       },
       {
-        title: '2019年01月',
+        title: '2019-01',
         collapsable: true,
         children: readFileList('2019', '01')
       },
       {
-        title: '2018年12月',
+        title: '2018-12',
         collapsable: true,
         children: readFileList('2018', '12')
       },
       {
-        title: '2018年11月',
+        title: '2018-11',
         collapsable: true,
         children: readFileList('2018', '11')
       },
       {
-        title: '2018年10月',
+        title: '2018-10',
         collapsable: true,
         children: readFileList('2018', '10')
       },
       {
-        title: '2018年09月',
+        title: '2018-09',
         collapsable: true,
         children: readFileList('2018', '09')
       },
       {
-        title: '2018年08月',
+        title: '2018-08',
         collapsable: true,
         children: readFileList('2018', '08')
       }

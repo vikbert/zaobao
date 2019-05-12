@@ -1,2 +1,2 @@
-### 感谢您提供宝贵的建议
+### Contact Me
 <Vssue title="Vssue Talk" />
