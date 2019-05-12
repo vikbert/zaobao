@@ -9,7 +9,7 @@ I read oft the tech news on（[Hacker News](https://news.ycombinator.com/)、[Me
 
 ### Install
 
-download the source code：  
+download the source code from github：  
 ```bash
 $ git clone https://github.com/vikbert/zaobao.git
 $ cd zaobao
