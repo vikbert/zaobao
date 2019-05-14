@@ -1,7 +1,7 @@
 const readFileList = require('../../scripts/build.js');
 
 module.exports = {
-  title: 'ZaoBao',
+  title: 'Daily Notes',
   description:
     '每日时报，会以前端技术体系为主要分享课题。内容会以：文章、工具、新闻、视频几大板块作为主要分类。',
   head: [
@@ -12,13 +12,6 @@ module.exports = {
         type: 'application/rss+xml',
         href: '/rss.xml',
         title: 'Daily Notes'
-      }
-    ],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: `https://fonts.googleapis.com/css?family=Major+Mono+Display`
       }
     ]
   ],
@@ -46,15 +39,16 @@ module.exports = {
   ],
   base: '/zaobao/',
   themeConfig: {
+    repo: 'vikbert/zaobao',
     lastUpdated: 'Last Updated',
     docsDir: 'docs',
     algolia: {
       apiKey: '6287226bfc8f45f5729943fba710faa0',
       indexName: 'zaobao'
     },
-    nav: [{ text: 'HowTo', link: '/other/howTo' }],
+    nav: [{ text: 'Write To Me', link: '/other/talk' }],
     sidebar: [
-      ['/', '🏠 Home'],
+      ['/', 'Home'],
       {
         title: '2019-05',
         collapsable: false,
@@ -62,12 +56,12 @@ module.exports = {
       },
       {
         title: '2019-04',
-        collapsable: true,
+        collapsable: false,
         children: readFileList('2019', '04')
       },
       {
         title: '2019-03',
-        collapsable: true,
+        collapsable: false,
         children: readFileList('2019', '03')
       },
       {

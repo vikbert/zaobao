@@ -7,6 +7,6 @@ git init
 git add -A
 git commit -m 'deploy: github gh-pages'
 
-git push -f git@github.com:vikbert/zaobao.git master:gh-pages
+git push -f https://github.com/vikbert/zaobao.git master:gh-pages
 
 cd -

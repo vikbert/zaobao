@@ -28,7 +28,7 @@
     "husky": "^2.2.0",
     "jest": "^23.6.0",
     "lint-md": "^0.0.8",
-    "vuepress": "^1.0.0-alpha.30",
+    "vuepress": "^0.12.0",
     "vuepress-plugin-rss-support": "^1.0.2"
   },
   "dependencies": {
