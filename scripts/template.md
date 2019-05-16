@@ -1,11 +1,22 @@
-### 2019.05.15
+### 2019.05.17
 
-🔥[**Article**] How to read daily effective as developer <br>
+::: tip Top
+:::
+
+🔥[**Article**] Top Article <br>
 <https://foo.de>
 
-🔥[**GitHub**] Griffith: React based Web video player <br>
+🔥[**GitHub**] Top GitHub Repo <br>
 <https://foo.de>
+
+🔥[**Idea**] Top Idea <br>
 
 <hr>
 
-### Images
+::: tip Daily Notes
+All notes I made for daily works.
+:::
+
+::: tip Images
+Images
+:::
