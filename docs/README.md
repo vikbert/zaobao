@@ -1,7 +1,18 @@
----
-home: false
-footer: MIT Licensed | Copyright © 2019-present
----
-<img src="./assets/gongjiang.jpg" alt="drawing" width="100%"/>
+<img class="page__header" src="./assets/home_header.png" alt="drawing" width="100%"/>
 
-I read oft the tech news on（[Hacker News](https://news.ycombinator.com/)、[Medium](https://medium.com/)、[Dev.to](https://dev.to/)、[阮一峰](http://www.ruanyifeng.com/blog/)、[GitHub](https://github.com/)、、[V2EX](https://www.v2ex.com/)、[GitHub Trending](https://github.com/trending)、[DEVURLS](https://devurls.com/)、[Hashnode](https://hashnode.com/)、[React Status](https://react.statuscode.com/)）and so on to get things updated. Sometimes I collect the things which might be useful and can be read later again and agin.
+| Websites                                                                          | Notes                                                                               |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [DEVURLS](https://devurls.com/)                                                   | You can search for articles from most favorite tech blogs and websites on ONE place |
+| [Medium](https://medium.com/)                                                     | read and write the blog daily                                                       |
+| [Dev.to](https://dev.to/)                                                         | Community driven tech blog                                                          |
+| [ruanyifeng](http://www.ruanyifeng.com/blog/)                                     | A chinese developer blogger                                                         |
+| [GitHub](https://github.com/trending)                                             | GitHub Trending                                                                     |
+| [Daily news](https://wubaiqing.github.io/zaobao/)                                 | The useful daily collection                                                         |
+| [30s Js code](https://30secondsofcode.org/)                                       | 30 seconds js code                                                                  |
+| [React Handbook](https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795) | A very good react open handbook                                                     |
+
+::: warning My Open TODOs
+
+- Fix the fulltext serach
+- add shell to create new article based on current date(15.md)
+  :::
