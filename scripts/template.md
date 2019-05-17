@@ -1,22 +1,6 @@
-### 2019.05.17
+### 2019.05.18
 
-::: tip Top
-:::
-
-🔥[**Article**] Top Article <br>
-<https://foo.de>
-
-🔥[**GitHub**] Top GitHub Repo <br>
-<https://foo.de>
-
-🔥[**Idea**] Top Idea <br>
+🔥[**Article**] Top article <br>
+<https://killedbygoogle.com/>
 
 <hr>
-
-::: tip Daily Notes
-All notes I made for daily works.
-:::
-
-::: tip Images
-Images
-:::
