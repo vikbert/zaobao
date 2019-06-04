@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "commit": "commit",
+    "lint:md": "lint-md ./docs/",
+    "lint:js": "eslint --fix --ext .js .",
+    "docs:new": "node scripts/new.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@commitlint/cli": "^7.3.2",
+    "@commitlint/config-conventional": "^7.3.1",
+    "@commitlint/prompt-cli": "^7.3.1",
+    "@commitlint/travis-cli": "^7.3.2",
+    "@vssue/vuepress-plugin-vssue": "^0.8.2",
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0.32",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^2.2.0",
+    "jest": "^23.6.0",
+    "lint-md": "^0.0.8",
+    "vuepress": "^0.12.0",
+    "vuepress-plugin-rss-support": "^1.0.2"
+  },
+  "dependencies": {
+    "mkdir-recursive": "^0.4.0",
+    "oji": "^3.2.3"
+  }
+}
