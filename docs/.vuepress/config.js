@@ -56,8 +56,13 @@ module.exports = {
     sidebar: [
       ["/", "🏠 Home"],
       {
-        title: "2019-07",
+        title: "2019-09",
         collapsable: false,
+        children: readFileList("2019", "09")
+      },
+      {
+        title: "2019-07",
+        collapsable: true,
         children: readFileList("2019", "07")
       },
       {
