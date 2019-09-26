@@ -5,8 +5,8 @@
     "commit": "commit",
     "lint:md": "lint-md ./docs/",
     "lint:js": "eslint --fix --ext .js .",
-    "docs:new": "node scripts/new.js",
-    "docs:dev": "vuepress dev docs",
+    "new": "node scripts/new.js",
+    "start": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
