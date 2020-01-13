@@ -28,7 +28,7 @@ module.exports = {
       "vuepress-plugin-rss-support",
       {
         site_url: "https://vikbert.github.io/zaobao/",
-        filter: (page) => /^\/201.+/.test(page.path),
+        filter: page => /^\/201.+/.test(page.path),
         copyright: "2019每日时报",
         count: 60
       }
@@ -55,6 +55,11 @@ module.exports = {
     nav: [{ text: "HowTo", link: "/other/howTo" }],
     sidebar: [
       ["/", "🏠 Home"],
+      {
+        title: "2020-01",
+        collapsable: false,
+        children: readFileList("2020", "01")
+      },
       {
         title: "2019-09",
         collapsable: false,
