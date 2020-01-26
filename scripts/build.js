@@ -1,5 +1,5 @@
-const { resolve } = require('path');
-const { existsSync, lstatSync, readdirSync } = require('fs');
+const { resolve } = require("path");
+const { existsSync, lstatSync, readdirSync } = require("fs");
 
 function readFileList(year, moon) {
   const fileList = [];
